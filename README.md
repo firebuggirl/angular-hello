@@ -81,3 +81,5 @@ Add component login into login module:
  
 ng g c login -m login/login.module -d
 ng g c login -m login/login.module 
+
+ng --help for help
