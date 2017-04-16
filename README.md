@@ -63,3 +63,9 @@ ng g i models/person //create person interface within models directory
 
 create an enumeration:
 ng g e models/gender
+
+blueprint for creating a pipe:
+
+ng g p init-caps -d (dry run)
+
+ng g p shared/init-caps 
