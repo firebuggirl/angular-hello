@@ -69,3 +69,15 @@ blueprint for creating a pipe:
 ng g p init-caps -d (dry run)
 
 ng g p shared/init-caps 
+
+Create login module:
+
+ng g m login -d
+ng g m login
+
+reminder: modules by default get their own folder, though they do not get spec file by default... '--spec true' to add
+
+Add component login into login module:
+ 
+ng g c login -m login/login.module -d
+ng g c login -m login/login.module 
