@@ -52,3 +52,8 @@ OR.......
 
 ..to auto generate sales-data service and auto add updates to app.module run...ng g s sales-
 data2 -m app.module
+
+
+ng g cl models/customer -d  ...create customer class within models directory (dry run)...
+
+then run ng g cl models/customer
