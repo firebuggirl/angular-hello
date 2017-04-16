@@ -60,3 +60,6 @@ then run ng g cl models/customer
 
 
 ng g i models/person //create person interface within models directory
+
+create an enumeration:
+ng g e models/gender
