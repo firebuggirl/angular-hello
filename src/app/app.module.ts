@@ -10,6 +10,7 @@ import { SearchBoxDirective } from './search-box.directive';
 import { SaleDataService } from "app/sale-data.service";
 import { SalesData2Service } from './sales-data2.service';
 import { InitCapsPipe } from './shared/init-caps.pipe';
+import { LoginModule } from './login/login.module';
 
 @NgModule({
   declarations: [
