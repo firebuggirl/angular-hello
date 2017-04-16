@@ -23,7 +23,8 @@ import { LoginModule } from './login/login.module';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    LoginModule
   ],
   providers: [SaleDataService, SalesData2Service],
   bootstrap: [AppComponent]
