@@ -42,3 +42,8 @@ top of orders.component.ts file
 
 run ng g d search-box -d ...generates dry run of search-box directive,
 then run ng g d search-box without -d   ...if tag on --flat false .....will create a folder instead of being in root of app
+
+
+run ng g s sale-data -d (s = alias for 'service'),
+
+..then ng g s sale-data + import SaleDataService via app.module.ts via @ngModule + auto-import to top of file via VS Code
