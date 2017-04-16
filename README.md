@@ -46,4 +46,9 @@ then run ng g d search-box without -d   ...if tag on --flat false .....will crea
 
 run ng g s sale-data -d (s = alias for 'service'),
 
-..then ng g s sale-data + import SaleDataService via app.module.ts via @ngModule + auto-import to top of file via VS Code
+..then ng g s sale-data + import SaleDataService via app.module.ts via @ngModule + auto-import to top of file via VS Code ..
+
+OR.......
+
+..to auto generate sales-data service and auto add updates to app.module run...ng g s sales-
+data2 -m app.module

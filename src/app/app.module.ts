@@ -8,6 +8,7 @@ import { CustomerComponent } from './customer/customer.component';
 import { OrdersComponent } from './orders/orders.component';
 import { SearchBoxDirective } from './search-box.directive';
 import { SaleDataService } from "app/sale-data.service";
+import { SalesData2Service } from './sales-data2.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { SaleDataService } from "app/sale-data.service";
     FormsModule,
     HttpModule
   ],
-  providers: [SaleDataService],
+  providers: [SaleDataService, SalesData2Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
